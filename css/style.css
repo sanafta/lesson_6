@@ -1,0 +1,169 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Marmelad:regular);
+@import url(https://fonts.googleapis.com/css?family=Seymour+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P:regular);
+@import url(https://fonts.googleapis.com/css?family=Pattaya:regular);
+@import url(https://fonts.googleapis.com/css?family=Comforter+Brush:regular);
+@import url(https://fonts.googleapis.com/css?family=Orelega+One:regular);
+
+body {
+	font-family: "Marmelad", sans-serif;
+	font-size: 23px;
+}
+.wrapper {
+	overflow: hidden;
+}
+.page {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 30px 30px;
+	border: 15px dotted #09ec6f;
+	border-radius: 30px;
+}
+.main-title {
+	font-family: "Seymour One", sans-serif;
+	font-size: 56px;
+	color: #ec0986;
+	text-shadow: 10px 10px 10px #500136;
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.item {
+	margin: 0px 0px 30px 0px;
+	padding: 10px;
+}
+h2 {
+	font-size: 30px;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+.item img {
+	display: block;
+	margin: 0px auto 15px;
+}
+.dendy,
+.tetris,
+.tamagotchy,
+.computer,
+.casio {
+	border: 5px solid #238de4;
+	box-shadow: 0 0 10px 5px #2348c2;
+}
+.dendy-title,
+.tetris-title,
+.tamagotchy-title,
+.computer-title,
+.casio-title {
+	font-family: "Press Start 2P", cursive;
+	color: #0609c2;
+}
+.tamagotchy-img {
+	outline: 5px dotted #00ced1;
+	border-radius: 150px;
+}
+.love,
+.turbo {
+	border: 7px dotted #e959ca;
+}
+.love-title,
+.turbo-title,
+.film-title {
+	font-family: "Pattaya", sans-serif;
+	font-size: 37px;
+	color: #e2039f;
+}
+.love-img,
+.turbo-img {
+	border-top: 5px solid #e2039f;
+	border-bottom: 5px solid #e2039f;
+	border-radius: 50px;
+}
+.video,
+.player,
+.modem {
+	border: 7px dashed #04a80d;
+	box-shadow: 30px 0 30px -30px #003f08 inset, -30px 0 30px -30px #003f08 inset;
+}
+.video-title,
+.player-title,
+.palaroid-title,
+.modem-title {
+	font-family: "Comforter Brush", cursive;
+	font-size: 50px;
+	color: #025e06;
+}
+.video-img,
+.player-img,
+.modem-img {
+	border: 5px solid #008000;
+	border-radius: 50px 0px;
+}
+.rainbow {
+	box-shadow: 0 0 0 1px #c0c0c0, 0 -20px 0 -10px #ff7f50, 20px 0 0 -10px #00ced1, 0 20px 0 -10px #ffd900,
+		-20px 0 0 -10px #008000;
+}
+.rainbow-title,
+.drinks-title {
+	font-family: "Orelega One", cursive;
+	font-size: 35px;
+	color: #ffc400;
+}
+.rainbow-img {
+	border-radius: 30px;
+}
+.galaxy {
+	outline: 10px solid #000000;
+	border-radius: 10px;
+}
+.galaxy-title {
+	font-family: "Pattaya", sans-serif;
+	color: #ff0000;
+}
+.galaxy-img {
+	border: 5px solid #ff0000;
+	border-radius: 50%;
+}
+.drinks {
+	outline: 10px double #e0f803;
+	border-radius: 10px;
+	box-shadow: 0 0 50px #4e861f33 inset;
+}
+.drinks-title {
+	color: #00d170;
+}
+.drinks-img {
+	border-radius: 20px;
+}
+.palaroid {
+	border: 5px double #00ced1;
+}
+.palaroid-img {
+	border: 5px double #00ced1;
+}
+.film {
+	border-top: 10px dashed #00d170;
+	border-bottom: 10px dashed #ff0062;
+	border-left: 10px dashed #cc01ff;
+	border-right: 10px dashed #00ff00;
+	margin: 0px;
+}
+.modem .modem-img-2 {
+	margin: 0 auto;
+	border: 5px solid #008000;
+	opacity: 0.5;
+}
+.modem p {
+	padding: 0px 0px 15px 0px;
+}
+span {
+	outline: 3px dashed #00ff00;
+}
+.hidden {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	/* visibility: hidden; */
+	/* opacity: 0; */
+	display: none;
+}
